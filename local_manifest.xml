@@ -6,4 +6,12 @@
  <project path="vendor/xiaomi" name="SonicBSV/proprietary_vendor_xiaomi" remote="github" revision="lineage-19.1" />
  <project path="kernel/xiaomi/markw" name="SonicBSV/android_kernel_xiaomi_markw_new" remote="github" revision="T" />
  
+ 
+ <!-- Remove things for conflicts of lineage on cirrus -->
+  <remove-project name="build/make" />
+  <remove-project name="lineage-sdk" />
+  <remove-project name="packages/apps/Settings" />
+  <remove-project name="frameworks/base" />
+  <remove-project name="system/core" />
+ 
 </manifest>
