@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+ <!--Remotes -->
+   <remote name="arrow-d"
+           fetch="https://github.com/ArrowOS-Devices" />
+ 
+   <remote name="aop"
+           fetch="https://gitlab.com/arrowos-project" />
+  
+  <remote name="varun" 
+              fetch="https://gitlab.com/varunhardgamer" />
+ 
  <!-- Device Trees -->
  <project path="device/xiaomi/markw" name="Indierock00/android_device_xiaomi_markw" remote="github" revision="volt-13" />
  <project path="vendor/xiaomi" name="SonicBSV/proprietary_vendor_xiaomi" remote="github" revision="T" />
@@ -8,13 +18,11 @@
  
  
  <!-- (Clang) -->
-  <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="github" revision="arrow-11.0" />
- 
- <!-- Remove things for conflicts of lineage on cirrus 
-  <remove-project name="build/make" />
-  <remove-project name="lineage-sdk" />
-  <remove-project name="packages/apps/Settings" />
-  <remove-project name="frameworks/base" />
-  <remove-project name="system/core" />
- -->
+  <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="arrow-d" revision="arrow-11.0" />
+  
+  <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="aop" revision="master" />
+
+  <!--<remove-project name="varunhardgamer/trb_clang"/> -->
+  <project path="prebuilts/clang/host/linux-x86/trb_clang" name="trb_clang" clone-depth="1" revision="14" remote="varun" />  
+
 </manifest>
