@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+ <!--Remotes -->
+   <remote name="ag"
+           fetch="https://android.googlesource.com/" />
+ 
+ 
  <!-- Device Trees -->
  <project path="device/xiaomi/markw" name="Indierock00/android_device_xiaomi_markw" remote="github" revision="EvoX-13" />
  <project path="vendor/xiaomi" name="SonicBSV/proprietary_vendor_xiaomi" remote="github" revision="T" />
@@ -9,5 +14,6 @@
  
  <!-- (Clang) -->
   <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="github" revision="arrow-11.0" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="platform/prebuilts/clang/host/linux-x86/+/refs/tags/android-13.0.0_r3/clang-r450784d/" remote="ag" />
  
 </manifest>
