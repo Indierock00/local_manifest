@@ -9,7 +9,10 @@
  <!-- HALS -->
  <remove-project name="platform/hardware/qcom/display" />
  <project path="hardware/qcom/display" name="SOVIET-ANDROID/platform_hardware_qcom_display" remote="github" revision="13.0-8150" />
+ 
  <project path="android/hardware/xiaomi" name="SOVIET-ANDROID/android_hardware_xiaomi" remote="github" revision="13.0" />
+ 
+ <remove-project name="device/qcom/sepolicy_vndr" />
  <project path="device/qcom/sepolicy_vndr" name="SOVIET-ANDROID/device-qcom-sepolicy_vndr" remote="github" revision="13.0-legacy-um" />
 
  
