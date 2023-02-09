@@ -3,7 +3,7 @@
 
  <!-- Device Trees -->
  <project path="device/xiaomi/raphael" name="SOVIET-ANDROID/device_xiaomi_raphael" remote="github" revision="13.0" />
- <project path="vendor/raphael" name="SOVIET-ANDROID/vendor_xiaomi_raphael" remote="github" revision="13.0" />
+ <project path="vendor/xiaomi/raphael" name="SOVIET-ANDROID/vendor_xiaomi_raphael" remote="github" revision="13.0" />
  <project path="kernel/xiaomi/raphael" name="SOVIET-ANDROID/kernel_xiaomi_raphael" remote="github" revision="13.0" />
  
  <!-- HALS -->
