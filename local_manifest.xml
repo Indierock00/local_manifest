@@ -7,11 +7,28 @@
  <project path="kernel/xiaomi/raphael" name="SOVIET-ANDROID/kernel_xiaomi_raphael" remote="github" revision="13.0" />
  
  <!-- HALS -->
- <project path="hardware/qcom/display" name="SOVIET-ANDROID/platform_hardware_qcom_display" remote="github" revision="13.0-8150" />
+ <project path="hardware/qcom-caf/sm8150/display" name="SOVIET-ANDROID/platform_hardware_qcom_display" remote="github" revision="13.0-8150" />
+ <project path="hardware/qcom-caf/sm8150/audio" name="SOVIET-ANDROID/platform_hardware_qcom_audio" remote="github" revision="13.0-8150" />
+ <project path="hardware/qcom-caf/sm8150/media" name="SOVIET-ANDROID/platform_hardware_qcom_media" remote="github" revision="12.0-8150" />
+ <project path="hardware/xiaomi" name="SOVIET-ANDROID/android_hardware_xiaomi" remote="github" revision="13.0" />
+ <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="github" revision="lineage-20.0" />
+ <project path="vendor/qcom/opensource/fm-commonsys" name="LineageOS/android_vendor_qcom_opensource_fm-commonsys" remote="github" revision="lineage-20.0" />
+ <project path="vendor/qcom/opensource/libfmjni" name="LineageOS/android_vendor_qcom_opensource_libfmjni" remote="github" revision="lineage-20.0" />
+ <project path="vendor/qcom/common" name="ThankYouMario/proprietary_vendor_qcom_common" remote="github" revision="topaz" />
+ <project path="device/qcom/common" name="yaap/device_qcom_common" remote="gitlab" revision="thirteen" />
+ <project path="vendor/xiaomi/miuicamera" name="kondors1995/vendor_xiaomi_miuicamera" remote="github" revision="leica-5.0-raphael" />
+ <project path="prebuilts/clang/host/linux-x86/clang-trb" name="varunhardgamer/trb_clang" remote="gitlab" revision="main" />
+ 
+ 
+ 
+ 
+ 
+ 
+ <!-- <project path="hardware/qcom/display" name="SOVIET-ANDROID/platform_hardware_qcom_display" remote="github" revision="13.0-8150" />
  
  <project path="hardware/xiaomi" name="SOVIET-ANDROID/android_hardware_xiaomi" remote="github" revision="13.0" />
  
-<!-- <remove-project name="device/qcom/sepolicy_vndr-legacy-um" />
+ <remove-project name="device/qcom/sepolicy_vndr-legacy-um" />
  <project path="device/qcom/sepolicy_vndr" name="SOVIET-ANDROID/device-qcom-sepolicy_vndr" remote="github" revision="13.0-legacy-um" />
  
  <project path="vendor/xiaomi/miuicamera" name="SOVIET-ANDROID/vendor_miuicamera" remote="github" revision="10.0" />
