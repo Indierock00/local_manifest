@@ -15,8 +15,8 @@
  <project path="vendor/qcom/opensource/fm-commonsys" name="LineageOS/android_vendor_qcom_opensource_fm-commonsys" remote="github" revision="lineage-20.0" />
  <project path="vendor/qcom/opensource/libfmjni" name="LineageOS/android_vendor_qcom_opensource_libfmjni" remote="github" revision="lineage-20.0" />
  <project path="vendor/qcom/common" name="ThankYouMario/proprietary_vendor_qcom_common" remote="github" revision="topaz" />
- <project path="device/qcom/common" name="yaap/device_qcom_common" remote="gitlab" revision="thirteen" />
- <project path="vendor/xiaomi/miuicamera" name="kondors1995/vendor_xiaomi_miuicamera" remote="github" revision="leica-5.0-raphael" />
+ <project path="device/qcom/common" name="yaap/device_qcom_common" remote="github" revision="thirteen" />
+ <project path="vendor/xiaomi/miuicamera" name="kondors1995/vendor_xiaomi_miuicamera" remote="gitlab" revision="leica-5.0-raphael" />
  <project path="prebuilts/clang/host/linux-x86/clang-trb" name="varunhardgamer/trb_clang" remote="gitlab" revision="main" />
  
  
